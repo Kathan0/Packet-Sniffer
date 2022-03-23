@@ -1,1 +1,4 @@
-# Project1
+This Java code is the result of my project given in Second year. Following are the requirements of the said project:
+
+Create a class which creates packets with header and trailer containing their respective information. Request the Destination IP address and Port number from the user.
+create a class which classifies the packets into two types: attack traffic and normal traffic. If attack traffic is chosen by user, create 1500 packets with same port and IP address. If normal traffic is chosen, create 5 packets wit different IP and Port number. Send them to another class which checks whether the incomming traffic is normal or attack traffic. If number of packets are more than 1000, it is considered to be attack traffic, else normal traffic. In case of normal traffic, display the information.
